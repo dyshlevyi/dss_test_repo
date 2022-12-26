@@ -1,5 +1,19 @@
 {
-  "endpoints": [],
+  "name": "Ticket_42149",
+  "endpoints": [
+    {
+      "envSelection": {
+        "envMode": "INHERIT"
+      },
+      "passArgumentsAsList": false,
+      "testQueries": [],
+      "inputFolderRefs": [],
+      "userFunctionName": "api_r_function",
+      "code": "\n# Insert here initialization code\n# You can retrieve absolute paths to the resource folders\n# using dkuAPINodeGetResourceFolders()\n# (returns a vector of character)\n\n# This function is the entry point for your R function API\n# You can call this function with passing \"param1\", \"param2\",\n# \"param3\" as arguments to the API call\n# (see REST API documentation)\napi_r_function \u003c- function(param1, param2, param3) {\n    # All parameters are passed as character\n    as.integer(param1) + as.integer(param2) * as.integer(param3)\n}\n",
+      "id": "R_function",
+      "type": "R_FUNCTION"
+    }
+  ],
   "authMethod": "PUBLIC",
   "authRealm": {
     "queryKeys": []
@@ -10,11 +24,11 @@
     "scopeClaimKey": "scope"
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1672082374413
+    "lastModifiedOn": 1672082386933
   },
   "creationTag": {
     "versionNumber": 0,
