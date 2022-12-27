@@ -4,7 +4,14 @@
     "authorizations": []
   },
   "exposedObjects": {
-    "objects": []
+    "objects": [
+      {
+        "type": "DATASET",
+        "localName": "Inline_dataset_prepared",
+        "quickSharingEnabled": true,
+        "rules": []
+      }
+    ]
   },
   "projectType": "REGULAR",
   "projectAppType": "REGULAR",
@@ -233,11 +240,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1672139766851
+    "lastModifiedOn": 1672158906571
   },
   "creationTag": {
     "versionNumber": 0,
