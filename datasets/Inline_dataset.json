@@ -1,0 +1,166 @@
+{
+  "type": "Inline",
+  "managed": true,
+  "featureGroup": false,
+  "formatType": "json",
+  "checklists": {
+    "checklists": []
+  },
+  "checks": [],
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "WRITE_PROTECT",
+    "crossProjectBuildBehavior": "STOP"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "formatParams": {
+    "maxExpansionDepth": -1,
+    "nestedArraysHandling": "FLATTEN",
+    "extractFromSingleElement": false,
+    "nestedArraysMaxElements": 100,
+    "nestedArraysMaxContentSize": 300000,
+    "headerRow": true
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "versionTag": {
+    "versionNumber": 2,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1672139590249
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1672139589123
+  },
+  "tags": [],
+  "params": {
+    "keepTrackOfChanges": false,
+    "notReadyIfEmpty": false,
+    "importSourceType": "FILE",
+    "uploadBoxId": "11c0d4974d51bbe2e231a173be07420ee946281b7bbc441d0492e5dc97f05437",
+    "importProjectKey": "CUSTOMERSCASES"
+  },
+  "schema": {
+    "columns": [
+      {"name":"year","type":"string"},
+      {"name":"state","type":"string"},
+      {"name":"state_po","type":"string"},
+      {"name":"state_fips","type":"string"},
+      {"name":"state_cen","type":"string"},
+      {"name":"state_ic","type":"string"},
+      {"name":"office","type":"string"},
+      {"name":"district","type":"string"},
+      {"name":"stage","type":"string"},
+      {"name":"runoff","type":"string"},
+      {"name":"special","type":"string"},
+      {"name":"candidate","type":"string"},
+      {"name":"party","type":"string"},
+      {"name":"writein","type":"string"},
+      {"name":"mode","type":"string"},
+      {"name":"candidatevotes","type":"string"},
+      {"name":"totalvotes","type":"string"},
+      {"name":"unofficial","type":"string"},
+      {"name":"version","type":"string"}
+    ],
+    "userModified": true
+  },
+  "dkuProperties": [],
+  "metrics": {
+    "probes": [
+      {
+        "type": "basic",
+        "enabled": true,
+        "computeOnBuildMode": "PARTITION",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      }
+    ],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "records:COUNT_RECORDS"
+      ]
+    }
+  },
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {}
+}
