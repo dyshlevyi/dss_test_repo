@@ -1,7 +1,7 @@
 {
   "type": "Filesystem",
   "managed": true,
-  "featureGroup": false,
+  "featureGroup": true,
   "formatType": "csv",
   "checklists": {
     "checklists": []
@@ -60,11 +60,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1672139603843
+    "lastModifiedOn": 1672158906651
   },
   "creationTag": {
     "versionNumber": 0,
