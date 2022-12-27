@@ -8,7 +8,7 @@
     },
     "infra": {
       "containerSelection": {
-        "containerMode": "INHERIT"
+        "containerMode": "NONE"
       },
       "overrideGlobalK8sExposition": false,
       "exposition": {
@@ -34,11 +34,11 @@
   "config": {},
   "name": "shiny",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
-      "login": "admin"
+      "login": "dataiku"
     },
-    "lastModifiedOn": 1672136636697
+    "lastModifiedOn": 1672137134981
   },
   "creationTag": {
     "versionNumber": 0,
