@@ -4,7 +4,8 @@
   "optionalDependencies": false,
   "params": {
     "envSelection": {
-      "envMode": "INHERIT"
+      "envMode": "EXPLICIT_ENV",
+      "envName": "py36"
     },
     "sparkConfig": {
       "inheritConf": "default",
@@ -44,11 +45,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1672319916996
+    "lastModifiedOn": 1672319930617
   },
   "creationTag": {
     "versionNumber": 0,
