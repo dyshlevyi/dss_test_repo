@@ -28,7 +28,10 @@
   },
   "explorationFilters": [],
   "columnUseScientificNotationByName": {},
-  "exploreUIParams": {},
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
   "steps": [],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
@@ -55,7 +58,27 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "year": 100,
+    "candidatevotes": 120,
+    "runoff": 100,
+    "office": 100,
+    "version": 100,
+    "state_cen": 100,
+    "writein": 100,
+    "special": 100,
+    "mode": 100,
+    "candidate": 183,
+    "totalvotes": 100,
+    "stage": 100,
+    "district": 100,
+    "state_ic": 100,
+    "state": 113,
+    "state_fips": 100,
+    "party": 176,
+    "state_po": 100,
+    "unofficial": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
