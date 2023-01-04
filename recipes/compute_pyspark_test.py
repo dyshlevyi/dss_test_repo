@@ -18,3 +18,5 @@ pyspark_test_df = Inline_dataset_prepared_df # For this sample code, simply copy
 # Write recipe outputs
 pyspark_test = dataiku.Dataset("pyspark_test")
 dkuspark.write_with_schema(pyspark_test, pyspark_test_df)
+
+print("Hello")
