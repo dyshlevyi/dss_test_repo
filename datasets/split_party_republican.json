@@ -60,11 +60,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1673037227745
+    "lastModifiedOn": 1673037230532
   },
   "creationTag": {
     "versionNumber": 0,
@@ -89,7 +89,27 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {"name":"year","type":"string"},
+      {"name":"state","type":"string"},
+      {"name":"state_po","type":"string"},
+      {"name":"state_fips","type":"string"},
+      {"name":"state_cen","type":"string"},
+      {"name":"state_ic","type":"string"},
+      {"name":"office","type":"string"},
+      {"name":"district","type":"string"},
+      {"name":"stage","type":"string"},
+      {"name":"runoff","type":"string"},
+      {"name":"special","type":"string"},
+      {"name":"candidate","type":"string"},
+      {"name":"party","type":"string"},
+      {"name":"writein","type":"string"},
+      {"name":"mode","type":"string"},
+      {"name":"candidatevotes","type":"string"},
+      {"name":"totalvotes","type":"string"},
+      {"name":"unofficial","type":"string"},
+      {"name":"version","type":"string"}
+    ],
     "userModified": true
   },
   "dkuProperties": [],
