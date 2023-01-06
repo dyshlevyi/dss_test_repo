@@ -3,37 +3,44 @@
   "centileSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 50
     }
   ],
-  "defaultOutputIndex": 1,
   "preFilter": {
     "distinct": false,
     "enabled": false
   },
+  "defaultOutputIndex": -1,
   "seed": 1337,
   "randomColumns": [],
   "centileOrders": [],
   "rangeSetTime": false,
+  "column": "party",
   "randomSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 50
     }
   ],
   "randomColumnsSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 50
     }
   ],
   "computedColumns": [],
   "writeComputedColumnsInOutput": false,
+  "mode": "VALUES",
   "centileTDigest": false,
   "valueSplits": [
     {
       "outputIndex": 0,
-      "caseSensitive": false
+      "caseSensitive": false,
+      "value": "democrat"
+    },
+    {
+      "outputIndex": 1,
+      "value": "republican"
     }
   ],
   "rangeSplits": [
@@ -89,6 +96,88 @@
         "uiData": {
           "mode": "\u0026\u0026",
           "conditions": []
+        },
+        "$status": {
+          "schema": {
+            "columns": [
+              {
+                "name": "year",
+                "type": "string"
+              },
+              {
+                "name": "state",
+                "type": "string"
+              },
+              {
+                "name": "state_po",
+                "type": "string"
+              },
+              {
+                "name": "state_fips",
+                "type": "string"
+              },
+              {
+                "name": "state_cen",
+                "type": "string"
+              },
+              {
+                "name": "state_ic",
+                "type": "string"
+              },
+              {
+                "name": "office",
+                "type": "string"
+              },
+              {
+                "name": "district",
+                "type": "string"
+              },
+              {
+                "name": "stage",
+                "type": "string"
+              },
+              {
+                "name": "runoff",
+                "type": "string"
+              },
+              {
+                "name": "special",
+                "type": "string"
+              },
+              {
+                "name": "candidate",
+                "type": "string"
+              },
+              {
+                "name": "party",
+                "type": "string"
+              },
+              {
+                "name": "writein",
+                "type": "string"
+              },
+              {
+                "name": "mode",
+                "type": "string"
+              },
+              {
+                "name": "candidatevotes",
+                "type": "string"
+              },
+              {
+                "name": "totalvotes",
+                "type": "string"
+              },
+              {
+                "name": "unofficial",
+                "type": "string"
+              },
+              {
+                "name": "version",
+                "type": "string"
+              }
+            ]
+          }
         },
         "distinct": false,
         "enabled": true

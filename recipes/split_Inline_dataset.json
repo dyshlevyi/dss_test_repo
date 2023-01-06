@@ -23,7 +23,11 @@
     "main": {
       "items": [
         {
-          "ref": "split_party",
+          "ref": "split_party_democrat",
+          "appendMode": false
+        },
+        {
+          "ref": "split_party_republican",
           "appendMode": false
         }
       ]
@@ -31,11 +35,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1673037146124
+    "lastModifiedOn": 1673037230912
   },
   "creationTag": {
     "versionNumber": 0,
