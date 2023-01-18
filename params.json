@@ -47,7 +47,7 @@
   "permissions": [
     {
       "group": "dataiku",
-      "admin": false,
+      "admin": true,
       "readProjectContent": true,
       "writeProjectContent": true,
       "exportDatasetsData": false,
@@ -241,11 +241,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1674068859811
+    "lastModifiedOn": 1674069126357
   },
   "creationTag": {
     "versionNumber": 0,
