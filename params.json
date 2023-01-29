@@ -49,15 +49,15 @@
       "group": "dataiku",
       "admin": false,
       "readProjectContent": true,
-      "writeProjectContent": false,
-      "exportDatasetsData": false,
+      "writeProjectContent": true,
+      "exportDatasetsData": true,
       "readDashboards": false,
       "writeDashboards": false,
       "moderateDashboards": false,
-      "shareToWorkspaces": false,
+      "shareToWorkspaces": true,
       "runScenarios": false,
       "manageDashboardAuthorizations": false,
-      "manageExposedElements": false,
+      "manageExposedElements": true,
       "manageAdditionalDashboardUsers": false,
       "executeApp": false
     }
@@ -241,11 +241,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 12,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1674069223284
+    "lastModifiedOn": 1675009554870
   },
   "creationTag": {
     "versionNumber": 0,
