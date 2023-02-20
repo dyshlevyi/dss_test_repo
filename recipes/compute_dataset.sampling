@@ -6,7 +6,7 @@
     "conditions": [
       {
         "input": "state",
-        "col": "state",
+        "col": "year",
         "string": "Alabama",
         "$showList": false,
         "num": 0,

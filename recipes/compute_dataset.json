@@ -21,6 +21,7 @@
       "withinFirstN": -1,
       "maxReadUncompressedBytes": -1
     },
+    "engineType": "SPARK",
     "engineParams": {
       "dssEngineMaxThreads": 4,
       "sparkSQL": {
@@ -29,7 +30,11 @@
         "readParams": {
           "mode": "AUTO",
           "autoModeRepartitionInto": 10,
-          "map": {}
+          "map": {
+            "Inline_dataset_prepared": {
+              "repartition": 10
+            }
+          }
         },
         "sparkConfig": {
           "inheritConf": "default",
@@ -86,11 +91,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1673037088992
+    "lastModifiedOn": 1676913131413
   },
   "creationTag": {
     "versionNumber": 0,
