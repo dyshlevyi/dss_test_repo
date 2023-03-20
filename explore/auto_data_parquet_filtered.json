@@ -70,9 +70,10 @@
       "copySelectionFromScript": true,
       "engineType": "LINO",
       "def": {
-        "type": "grouped_columns",
+        "type": "webapp",
         "variant": "normal",
-        "name": "New chart",
+        "webAppType": "webapp_waterfall-chart_waterfall-chart",
+        "name": "Waterfall chart",
         "userEditedName": false,
         "displayWithEChartsByDefault": true,
         "genericDimension0": [],
@@ -123,6 +124,7 @@
         "tooltipMeasures": [],
         "boxplotBreakdownDim": [],
         "boxplotValue": [],
+        "filters": [],
         "axis1LogScale": false,
         "axis2LogScale": false,
         "includeZero": true,
@@ -207,12 +209,19 @@
           "lockSquareGrid": false
         },
         "mapGridOptions": {
-          "gridLonDeg": 0.6,
-          "gridLatDeg": 0.6
+          "gridLonDeg": 0.5,
+          "gridLatDeg": 0.5
         },
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT",
+        "webAppConfig": {
+          "max_displayed_values": 20,
+          "group_others": true,
+          "dataset": "auto_data_parquet_filtered",
+          "values": "sale_date",
+          "categories": "Sales"
+        },
         "pivotMeasureDisplayMode": "ROWS",
         "pivotDisplayTotals": {
           "subTotals": {
