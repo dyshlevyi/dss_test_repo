@@ -219,8 +219,8 @@
           "max_displayed_values": 20,
           "group_others": true,
           "dataset": "auto_data_parquet_filtered",
-          "values": "sale_date",
-          "categories": "Sales"
+          "values": "Sales",
+          "categories": "County"
         },
         "pivotMeasureDisplayMode": "ROWS",
         "pivotDisplayTotals": {
