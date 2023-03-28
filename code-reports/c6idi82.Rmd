@@ -16,8 +16,8 @@ You can use Dataiku R API.
 
 ```{r}
 library(dataiku)
-#df <- iris
-df <- dkuReadDataset("Inline_dataset_prepared", samplingMethod="head", nbRows=100000)
+df <- iris
+#df <- dkuReadDataset("YOUR_DATASET_NAME", samplingMethod="head", nbRows=100000)
 plot(df)
 ```
 
