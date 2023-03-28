@@ -13,7 +13,7 @@ You can write a combination of **markdown** and **code**.
 
 You can use Dataiku R API.
 
-```{r}
+```{r, echo = FALSE}
 library(dataiku)
 df <- iris
 #df <- dkuReadDataset("YOUR_DATASET_NAME", samplingMethod="head", nbRows=100000)
