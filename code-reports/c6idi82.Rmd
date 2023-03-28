@@ -20,7 +20,7 @@ df <- iris
 plot(df)
 
 # dkuSourceLibR("test.R")
-dkuSourceLibR("/tmp/test.R")
+dkuSourceLibR("test.R")
 do_awesome_stuff()
 ```
 
