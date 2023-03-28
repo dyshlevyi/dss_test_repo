@@ -1,4 +1,4 @@
-dkuSourceLibR("test.R")
+
 
 ---
 title: "R Markdown report"
