@@ -1,5 +1,20 @@
 {
-  "endpoints": [],
+  "name": "sql_service",
+  "endpoints": [
+    {
+      "queries": [
+        {
+          "inputParameters": [],
+          "query": "-- Insert your SQL code here",
+          "postCommit": false,
+          "maxResults": -1
+        }
+      ],
+      "testQueries": [],
+      "id": "sql_endpoint",
+      "type": "SQL_QUERY"
+    }
+  ],
   "authMethod": "PUBLIC",
   "authRealm": {
     "queryKeys": []
@@ -10,11 +25,11 @@
     "scopeClaimKey": "scope"
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1680445909221
+    "lastModifiedOn": 1680445947763
   },
   "creationTag": {
     "versionNumber": 0,
