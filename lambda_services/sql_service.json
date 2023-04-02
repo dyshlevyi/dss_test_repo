@@ -10,7 +10,7 @@
               "name": "param"
             }
           ],
-          "query": "-- Insert your SQL code here\nSELECT * FROM \"public\".\"CUSTOMERSCASES_pyspark_test_prepared\" WHERE \"state_po\" \u003d ?;",
+          "query": "-- Insert your SQL code here\nSELECT party FROM \"public\".\"CUSTOMERSCASES_pyspark_test_prepared\" WHERE \"state_po\" \u003d ?;",
           "postCommit": false,
           "maxResults": -1
         }
@@ -36,11 +36,11 @@
     "scopeClaimKey": "scope"
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1680446729277
+    "lastModifiedOn": 1680446777385
   },
   "creationTag": {
     "versionNumber": 0,
