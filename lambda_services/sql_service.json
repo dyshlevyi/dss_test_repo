@@ -29,7 +29,7 @@
       "testQueries": [
         {
           "q": {
-            "data": {}
+            "data": "la"
           }
         }
       ],
@@ -64,11 +64,11 @@
     "scopeClaimKey": "scope"
   },
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 12,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1680446942018
+    "lastModifiedOn": 1680447021620
   },
   "creationTag": {
     "versionNumber": 0,
