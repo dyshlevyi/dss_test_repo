@@ -27,7 +27,23 @@
     },
     {
       "testQueries": [],
-      "lookups": [],
+      "lookups": [
+        {
+          "datasetRef": "pyspark_test_prepared",
+          "packagingType": "REFERENCED",
+          "on": [
+            {
+              "resourceLookupCol": "party"
+            }
+          ],
+          "missingLookupKeyBehavior": "IGNORE",
+          "notFoundBehavior": "IGNORE",
+          "multiMatchBehavior": "KEEP_FIRST",
+          "columnsMapping": {
+            "party": "party"
+          }
+        }
+      ],
       "id": "lookup",
       "type": "DATASETS_LOOKUP"
     }
@@ -42,11 +58,11 @@
     "scopeClaimKey": "scope"
   },
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1680446876545
+    "lastModifiedOn": 1680446932200
   },
   "creationTag": {
     "versionNumber": 0,
