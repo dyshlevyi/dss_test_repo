@@ -29,7 +29,9 @@
       "testQueries": [
         {
           "q": {
-            "data": "la"
+            "data": {
+              "party": "democrat"
+            }
           }
         }
       ],
@@ -64,11 +66,11 @@
     "scopeClaimKey": "scope"
   },
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1680447021620
+    "lastModifiedOn": 1680447074866
   },
   "creationTag": {
     "versionNumber": 0,
