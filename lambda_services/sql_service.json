@@ -24,6 +24,12 @@
       ],
       "id": "sql_endpoint",
       "type": "SQL_QUERY"
+    },
+    {
+      "testQueries": [],
+      "lookups": [],
+      "id": "lookup",
+      "type": "DATASETS_LOOKUP"
     }
   ],
   "authMethod": "PUBLIC",
@@ -36,11 +42,11 @@
     "scopeClaimKey": "scope"
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1680446796512
+    "lastModifiedOn": 1680446876545
   },
   "creationTag": {
     "versionNumber": 0,
