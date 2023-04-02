@@ -26,7 +26,13 @@
       "type": "SQL_QUERY"
     },
     {
-      "testQueries": [],
+      "testQueries": [
+        {
+          "q": {
+            "data": {}
+          }
+        }
+      ],
       "lookups": [
         {
           "datasetRef": "pyspark_test_prepared",
@@ -58,11 +64,11 @@
     "scopeClaimKey": "scope"
   },
   "versionTag": {
-    "versionNumber": 10,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1680446932200
+    "lastModifiedOn": 1680446942018
   },
   "creationTag": {
     "versionNumber": 0,
