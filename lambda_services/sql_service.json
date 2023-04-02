@@ -2,6 +2,7 @@
   "name": "sql_service",
   "endpoints": [
     {
+      "connection": "postgresql",
       "queries": [
         {
           "inputParameters": [],
@@ -25,11 +26,11 @@
     "scopeClaimKey": "scope"
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1680445947763
+    "lastModifiedOn": 1680445962230
   },
   "creationTag": {
     "versionNumber": 0,
