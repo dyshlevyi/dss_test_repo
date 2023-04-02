@@ -5,8 +5,12 @@
       "connection": "postgresql",
       "queries": [
         {
-          "inputParameters": [],
-          "query": "-- Insert your SQL code here",
+          "inputParameters": [
+            {
+              "name": "param"
+            }
+          ],
+          "query": "-- Insert your SQL code here\nSELECT * FROM \"public\".\"CUSTOMERSCASES_pyspark_test_prepared\" WHERE \"state_po\" \u003d param",
           "postCommit": false,
           "maxResults": -1
         }
@@ -26,11 +30,11 @@
     "scopeClaimKey": "scope"
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1680445962230
+    "lastModifiedOn": 1680446554855
   },
   "creationTag": {
     "versionNumber": 0,
