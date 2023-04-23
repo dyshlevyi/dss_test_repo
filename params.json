@@ -126,7 +126,8 @@
       }
     },
     "container": {
-      "containerMode": "INHERIT"
+      "containerMode": "EXPLICIT_CONTAINER",
+      "containerConf": "EKS"
     },
     "datasetsCreationSettings": {
       "useGlobal": true,
@@ -242,11 +243,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 14,
+    "versionNumber": 15,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1678645215840
+    "lastModifiedOn": 1682247587815
   },
   "creationTag": {
     "versionNumber": 0,
