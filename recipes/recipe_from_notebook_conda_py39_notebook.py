@@ -14,14 +14,14 @@ from cmdstanpy import cmdstan_path, CmdStanModel
 # import cmdstanpy
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
-posterior = CmdStanModel(stan_file = "/home/centos/dina_independent.stan")
-
-# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 import os, os.path
 print("==== DEBUG: ENVIRONMENT")
 for v in sorted(os.environ):
     print(v + " => " + os.environ[v])
 print("==== CMDSTAN_DIR: " + os.path.expanduser(os.path.join('~', '.cmdstan')))
+
+# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
+posterior = CmdStanModel(stan_file = "/home/centos/dina_independent.stan")
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Recipe outputs
