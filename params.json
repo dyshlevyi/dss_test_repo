@@ -126,7 +126,7 @@
       }
     },
     "container": {
-      "containerMode": "EXPLICIT_CONTAINER",
+      "containerMode": "NONE",
       "containerConf": "EKS"
     },
     "datasetsCreationSettings": {
@@ -243,11 +243,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 15,
+    "versionNumber": 16,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1682247587815
+    "lastModifiedOn": 1682369978041
   },
   "creationTag": {
     "versionNumber": 0,
