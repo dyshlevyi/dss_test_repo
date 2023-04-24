@@ -25,5 +25,5 @@ print("==== CMDSTAN_DIR: " + os.path.expanduser(os.path.join('~', '.cmdstan')))
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Recipe outputs
-cmdstan = dataiku.Dataset("cmdstan")
-cmdstan.write_with_schema(pandas_dataframe)
+#cmdstan = dataiku.Dataset("cmdstan")
+#cmdstan.write_with_schema(pandas_dataframe)
