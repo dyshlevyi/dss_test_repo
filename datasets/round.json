@@ -60,11 +60,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1682929154706
+    "lastModifiedOn": 1682929154748
   },
   "creationTag": {
     "versionNumber": 0,
@@ -75,7 +75,6 @@
   },
   "tags": [],
   "params": {
-    "uploadBoxId": "75f6002aea08560cce3b915750b92e2e500d0cda52d3354de7c04a15dbe56100",
     "uploadConnection": "Default (in Woody data dir.)",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
