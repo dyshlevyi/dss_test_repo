@@ -10,11 +10,11 @@
     "lastModifiedOn": 1683099488317
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1683099488317
+    "lastModifiedOn": 1683099519128
   },
   "checklists": {
     "checklists": []
@@ -28,7 +28,36 @@
   "triggers": [],
   "reporters": [],
   "params": {
-    "steps": []
+    "steps": [
+      {
+        "id": "runmacro_pyrunnable_builtin-macros_remove-old-container-images",
+        "type": "runnable",
+        "name": "Step #1",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "runnableType": "pyrunnable_builtin-macros_remove-old-container-images",
+          "config": {
+            "rm_dss_images": true,
+            "rm_none_images": true,
+            "dont_guess_image_name": false,
+            "custom_image_name": "dku-exec-something",
+            "use_custom_host": false,
+            "perform_deletion": false,
+            "force_rm": false
+          },
+          "adminConfig": {},
+          "proceedOnFailure": false
+        }
+      }
+    ]
   },
   "automationLocal": false,
   "customFields": {}
