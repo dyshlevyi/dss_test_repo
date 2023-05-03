@@ -28,8 +28,50 @@
   },
   "explorationFilters": [],
   "columnUseScientificNotationByName": {},
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "DateParser",
+      "params": {
+        "outCol": "Date_parsed",
+        "formats": [
+          "yyyy-MM-dd HH:mm:ss"
+        ],
+        "columns": [
+          "Date"
+        ],
+        "timezone_id": "UTC",
+        "appliesTo": "SINGLE_COLUMN",
+        "lang": "auto"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "DateParser",
+      "params": {
+        "outCol": "ship_date_parsed",
+        "formats": [
+          "yyyy-MM-dd\u0027T\u0027HH:mm:ss"
+        ],
+        "columns": [
+          "ship_date"
+        ],
+        "timezone_id": "UTC",
+        "appliesTo": "SINGLE_COLUMN",
+        "lang": "auto"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -55,7 +97,35 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "Product_Category": 135,
+    "ship_date_parsed": 183,
+    "DateSeconds": 127,
+    "Satisfaction": 105,
+    "Gender": 100,
+    "County": 134,
+    "Sales": 134,
+    "sale_date": 113,
+    "Zipcode": 100,
+    "DateNumberPattern": 143,
+    "DateMillis": 120,
+    "Review_Text": 300,
+    "County_Code": 100,
+    "Product_Group": 113,
+    "Date_parsed": 183,
+    "DateWithoutTime": 155,
+    "City": 134,
+    "DateStringPattern2": 150,
+    "DateStringPattern1": 176,
+    "Date": 148,
+    "Planned_Sales": 141,
+    "Year": 100,
+    "State": 113,
+    "Income_Bracket": 148,
+    "Review_Text_0": 300,
+    "SKU": 100,
+    "ship_date": 148
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
