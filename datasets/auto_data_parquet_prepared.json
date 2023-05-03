@@ -37,11 +37,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1683088255646
+    "lastModifiedOn": 1683088299558
   },
   "creationTag": {
     "versionNumber": 0,
@@ -68,11 +68,13 @@
   "schema": {
     "columns": [
       {"name":"Date","type":"string"},
+      {"name":"Date_parsed","type":"date"},
       {"name":"State","type":"string"},
       {"name":"County_Code","type":"bigint"},
       {"name":"Income_Bracket","type":"string"},
       {"name":"sale_date","type":"bigint"},
       {"name":"ship_date","type":"string"},
+      {"name":"ship_date_parsed","type":"date"},
       {"name":"Sales","type":"double"},
       {"name":"Zipcode","type":"bigint"},
       {"name":"Product_Category","type":"string"},
