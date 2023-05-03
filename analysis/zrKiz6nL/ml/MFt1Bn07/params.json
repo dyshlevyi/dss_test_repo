@@ -863,7 +863,7 @@
   ],
   "evaluationParams": {
     "gapSize": 0,
-    "testSize": 1
+    "testSize": 10
   },
   "guessPolicy": "TIMESERIES_DEEP_LEARNING",
   "partitionedModel": {
