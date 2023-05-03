@@ -4,7 +4,7 @@
       "numericalInterpolateMethod": "LINEAR",
       "numericalExtrapolateMethod": "NO_EXTRAPOLATION",
       "categoricalImputeMethod": "PREVIOUS_NEXT",
-      "duplicateTimestampsHandlingMethod": "DROP_IF_CONFLICTING"
+      "duplicateTimestampsHandlingMethod": "FAIL_IF_CONFLICTING"
     },
     "feature_selection_params": {
       "method": "NONE",
@@ -77,19 +77,13 @@
       },
       "ship_date_parsed": {
         "generate_derivative": false,
-        "numerical_handling": "DATETIME_CYCLICAL",
-        "missing_handling": "DROP_ROW",
         "impute_constant_value": 0.0,
         "keep_regular": false,
-        "rescaling": "AVGSTD",
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
-        "datetime_cyclical_periods": [
-          "MINUTE",
-          "HOUR"
-        ],
-        "role": "REJECT",
+        "datetime_cyclical_periods": [],
+        "role": "TIME",
         "type": "NUMERIC",
         "state": {
           "userModified": false,
@@ -411,13 +405,18 @@
       },
       "Date_parsed": {
         "generate_derivative": false,
+        "numerical_handling": "DATETIME_CYCLICAL",
+        "missing_handling": "DROP_ROW",
         "impute_constant_value": 0.0,
         "keep_regular": false,
+        "rescaling": "AVGSTD",
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
-        "datetime_cyclical_periods": [],
-        "role": "TIME",
+        "datetime_cyclical_periods": [
+          "HOUR"
+        ],
+        "role": "REJECT",
         "type": "NUMERIC",
         "state": {
           "userModified": false,
@@ -842,10 +841,10 @@
       }
     }
   },
-  "timeVariable": "Date_parsed",
+  "timeVariable": "ship_date_parsed",
   "timestepParams": {
-    "numberOfTimeunits": 1,
-    "timeunit": "HOUR",
+    "numberOfTimeunits": 3,
+    "timeunit": "SECOND",
     "endOfWeekDay": 1
   },
   "predictionLength": 10,
@@ -2903,7 +2902,7 @@
           "min": 1
         },
         "values": [
-          24
+          20
         ],
         "range": {
           "min": 1,
@@ -3023,7 +3022,7 @@
           "min": 2
         },
         "values": [
-          24
+          20
         ],
         "range": {
           "min": 2,
@@ -3055,7 +3054,7 @@
           "min": 3
         },
         "values": [
-          25
+          21
         ],
         "range": {
           "min": 3,
@@ -3719,7 +3718,7 @@
         "enabled": false,
         "rules": []
       },
-      "samplingMethod": "FULL",
+      "samplingMethod": "HEAD_SEQUENTIAL",
       "maxRecords": 100000,
       "targetRatio": 0.02,
       "withinFirstN": -1,
@@ -3728,7 +3727,7 @@
     "ssdTrainingRatio": 0.8,
     "ssdStratified": false,
     "ssdSeed": 1337,
-    "ssdColumn": "Date_parsed",
+    "ssdColumn": "ship_date_parsed",
     "testOnLargerValues": true,
     "streamAll": true,
     "kfold": false,
