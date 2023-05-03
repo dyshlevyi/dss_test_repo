@@ -24,5 +24,5 @@ from sklearn.preprocessing import  LabelBinarizer
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Recipe outputs
-lightgbm_tls_issue = dataiku.Dataset("lightgbm_tls_issue")
-lightgbm_tls_issue.write_with_schema(pandas_dataframe)
+#lightgbm_tls_issue = dataiku.Dataset("lightgbm_tls_issue")
+#lightgbm_tls_issue.write_with_schema(pandas_dataframe)
