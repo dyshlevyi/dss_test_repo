@@ -1,0 +1,182 @@
+{
+  "type": "GCS",
+  "managed": true,
+  "featureGroup": false,
+  "formatType": "parquet",
+  "checklists": {
+    "checklists": []
+  },
+  "checks": [],
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "formatParams": {
+    "parquetLowerCaseIdentifiers": false,
+    "representsNullFields": false,
+    "parquetCompressionMethod": "SNAPPY",
+    "parquetFlavor": "HIVE",
+    "parquetBlockSizeMB": 128
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1683088255646
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1683088255646
+  },
+  "tags": [],
+  "params": {
+    "bucket": "sergeyd-dss-gcs",
+    "metastoreSynchronizationEnabled": true,
+    "metastoreTableName": "auto_data_parquet_prepared",
+    "connection": "GCP",
+    "path": "/dss11-all-in-one/${projectKey}/auto_data_parquet_prepared",
+    "notReadyIfEmpty": false,
+    "filesSelectionRules": {
+      "mode": "ALL",
+      "excludeRules": [],
+      "includeRules": [],
+      "explicitFiles": []
+    }
+  },
+  "schema": {
+    "columns": [
+      {"name":"Date","type":"string"},
+      {"name":"State","type":"string"},
+      {"name":"County_Code","type":"bigint"},
+      {"name":"Income_Bracket","type":"string"},
+      {"name":"sale_date","type":"bigint"},
+      {"name":"ship_date","type":"string"},
+      {"name":"Sales","type":"double"},
+      {"name":"Zipcode","type":"bigint"},
+      {"name":"Product_Category","type":"string"},
+      {"name":"City","type":"string"},
+      {"name":"Product_Group","type":"string"},
+      {"name":"Satisfaction","type":"bigint"},
+      {"name":"SKU","type":"string"},
+      {"name":"Planned_Sales","type":"double"},
+      {"name":"Gender","type":"string"},
+      {"name":"County","type":"string"},
+      {"name":"Review_Text","type":"string"},
+      {"name":"Review_Text_0","type":"string"},
+      {"name":"DateWithoutTime","type":"string"},
+      {"name":"DateMillis","type":"bigint"},
+      {"name":"DateSeconds","type":"bigint"},
+      {"name":"DateStringPattern1","type":"string"},
+      {"name":"DateStringPattern2","type":"bigint"},
+      {"name":"DateNumberPattern","type":"bigint"},
+      {"name":"Year","type":"bigint"}
+    ],
+    "userModified": true
+  },
+  "dkuProperties": [],
+  "metrics": {
+    "probes": [
+      {
+        "type": "basic",
+        "enabled": true,
+        "computeOnBuildMode": "PARTITION",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      }
+    ],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "basic:COUNT_FILES",
+        "basic:SIZE",
+        "records:COUNT_RECORDS"
+      ]
+    }
+  },
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {
+    "gdpr_contains_personal_data": "UNSURE"
+  }
+}
