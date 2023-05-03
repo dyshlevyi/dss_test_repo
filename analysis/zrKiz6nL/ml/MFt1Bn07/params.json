@@ -848,7 +848,7 @@
     "timeunit": "HOUR",
     "endOfWeekDay": 1
   },
-  "predictionLength": 1,
+  "predictionLength": 10,
   "timeseriesIdentifiers": [],
   "quantilesToForecast": [
     0.1,
@@ -3605,7 +3605,7 @@
           "min": 1
         },
         "values": [
-          10
+          40
         ],
         "range": {
           "min": 10,
