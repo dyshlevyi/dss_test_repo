@@ -4,7 +4,7 @@
       "numericalInterpolateMethod": "LINEAR",
       "numericalExtrapolateMethod": "NO_EXTRAPOLATION",
       "categoricalImputeMethod": "PREVIOUS_NEXT",
-      "duplicateTimestampsHandlingMethod": "FAIL_IF_CONFLICTING"
+      "duplicateTimestampsHandlingMethod": "DROP_IF_CONFLICTING"
     },
     "feature_selection_params": {
       "method": "NONE",
