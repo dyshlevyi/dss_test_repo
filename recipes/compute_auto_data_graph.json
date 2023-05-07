@@ -3,7 +3,17 @@
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "params": {
-    "customConfig": {},
+    "customConfig": {
+      "directed_graph": false,
+      "output_type": "output_edges",
+      "computation_mode": "select_features",
+      "fastgreedy": false,
+      "multilevel": true,
+      "infomap": true,
+      "walktrap": true,
+      "source": "State",
+      "target": "Zipcode"
+    },
     "containerSelection": {
       "containerMode": "INHERIT"
     }
@@ -37,11 +47,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1683464531066
+    "lastModifiedOn": 1683464629484
   },
   "creationTag": {
     "versionNumber": 0,
