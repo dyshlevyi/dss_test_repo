@@ -11,8 +11,8 @@
       "multilevel": true,
       "infomap": true,
       "walktrap": true,
-      "source": "State",
-      "target": "Zipcode"
+      "source": "Product_Category",
+      "target": "City"
     },
     "containerSelection": {
       "containerMode": "INHERIT"
@@ -47,11 +47,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1683464802031
+    "lastModifiedOn": 1683465109073
   },
   "creationTag": {
     "versionNumber": 0,
