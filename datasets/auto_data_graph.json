@@ -37,11 +37,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1683465245057
+    "lastModifiedOn": 1683465612346
   },
   "creationTag": {
     "versionNumber": 0,
@@ -98,8 +98,6 @@
       {"name":"fastgreedy_target","type":"double"},
       {"name":"multilevel_source","type":"double"},
       {"name":"multilevel_target","type":"double"},
-      {"name":"infomap_source","type":"double"},
-      {"name":"infomap_target","type":"double"},
       {"name":"walktrap_source","type":"double"},
       {"name":"walktrap_target","type":"double"}
     ],
