@@ -9,7 +9,7 @@
       "computation_mode": "select_features",
       "fastgreedy": true,
       "multilevel": true,
-      "infomap": true,
+      "infomap": false,
       "walktrap": true,
       "source": "Product_Category",
       "target": "City"
@@ -47,11 +47,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1683465228026
+    "lastModifiedOn": 1683465595738
   },
   "creationTag": {
     "versionNumber": 0,
