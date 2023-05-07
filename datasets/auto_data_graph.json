@@ -37,11 +37,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1683464529430
+    "lastModifiedOn": 1683465125895
   },
   "creationTag": {
     "versionNumber": 0,
@@ -66,8 +66,42 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {"name":"Date","type":"string"},
+      {"name":"Date_parsed","type":"date"},
+      {"name":"State","type":"string"},
+      {"name":"County_Code","type":"double"},
+      {"name":"Income_Bracket","type":"string"},
+      {"name":"sale_date","type":"double"},
+      {"name":"ship_date","type":"string"},
+      {"name":"ship_date_parsed","type":"date"},
+      {"name":"Sales","type":"double"},
+      {"name":"Zipcode","type":"double"},
+      {"name":"Product_Category","type":"string"},
+      {"name":"City","type":"string"},
+      {"name":"Product_Group","type":"string"},
+      {"name":"Satisfaction","type":"double"},
+      {"name":"SKU","type":"string"},
+      {"name":"Planned_Sales","type":"double"},
+      {"name":"Gender","type":"string"},
+      {"name":"County","type":"string"},
+      {"name":"Review_Text","type":"string"},
+      {"name":"Review_Text_0","type":"string"},
+      {"name":"DateWithoutTime","type":"string"},
+      {"name":"DateMillis","type":"double"},
+      {"name":"DateSeconds","type":"double"},
+      {"name":"DateStringPattern1","type":"string"},
+      {"name":"DateStringPattern2","type":"double"},
+      {"name":"DateNumberPattern","type":"double"},
+      {"name":"Year","type":"double"},
+      {"name":"multilevel_source","type":"double"},
+      {"name":"multilevel_target","type":"double"},
+      {"name":"infomap_source","type":"double"},
+      {"name":"infomap_target","type":"double"},
+      {"name":"walktrap_source","type":"double"},
+      {"name":"walktrap_target","type":"double"}
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
