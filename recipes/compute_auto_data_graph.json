@@ -7,7 +7,7 @@
       "directed_graph": false,
       "output_type": "output_edges",
       "computation_mode": "select_features",
-      "fastgreedy": false,
+      "fastgreedy": true,
       "multilevel": true,
       "infomap": true,
       "walktrap": true,
@@ -47,11 +47,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1683465109073
+    "lastModifiedOn": 1683465228026
   },
   "creationTag": {
     "versionNumber": 0,
