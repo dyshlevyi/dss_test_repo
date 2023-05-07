@@ -37,11 +37,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1683465125895
+    "lastModifiedOn": 1683465245057
   },
   "creationTag": {
     "versionNumber": 0,
@@ -94,6 +94,8 @@
       {"name":"DateStringPattern2","type":"double"},
       {"name":"DateNumberPattern","type":"double"},
       {"name":"Year","type":"double"},
+      {"name":"fastgreedy_source","type":"double"},
+      {"name":"fastgreedy_target","type":"double"},
       {"name":"multilevel_source","type":"double"},
       {"name":"multilevel_target","type":"double"},
       {"name":"infomap_source","type":"double"},
