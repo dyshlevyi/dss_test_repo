@@ -26,8 +26,8 @@
             "box": {
               "top": 90,
               "left": 0,
-              "width": 2,
-              "height": 2
+              "width": 8,
+              "height": 3
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -54,11 +54,11 @@
   "name": "Customers Cases\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1683732964237
+    "lastModifiedOn": 1683733018750
   },
   "creationTag": {
     "versionNumber": 0,
