@@ -22,7 +22,7 @@
             },
             "autoLoad": true,
             "showTitle": "YES",
-            "insightId": "RCjfaDK",
+            "insightId": "CJZqKmJ",
             "insightType": "chart",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
@@ -37,11 +37,11 @@
   "name": "Case_48455",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1684165729806
+    "lastModifiedOn": 1684166524839
   },
   "creationTag": {
     "versionNumber": 0,
