@@ -3,7 +3,31 @@
     {
       "id": "mSDuOjZ",
       "grid": {
-        "tiles": []
+        "tiles": [
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 0,
+              "left": 0,
+              "width": 2,
+              "height": 2
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "showXAxis": true,
+              "showYAxis": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "autoPlayAnimation": true
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "RCjfaDK",
+            "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          }
+        ]
       },
       "showTitle": false
     }
@@ -13,11 +37,11 @@
   "name": "Case_48455",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1684165698750
+    "lastModifiedOn": 1684165729806
   },
   "creationTag": {
     "versionNumber": 0,
