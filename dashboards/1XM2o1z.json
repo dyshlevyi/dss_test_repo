@@ -32,8 +32,8 @@
             "box": {
               "top": 0,
               "left": 4,
-              "width": 2,
-              "height": 2
+              "width": 8,
+              "height": 3
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -60,11 +60,11 @@
   "name": "Case_48455",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1684231015745
+    "lastModifiedOn": 1684231024421
   },
   "creationTag": {
     "versionNumber": 0,
