@@ -1,0 +1,298 @@
+{
+  "type": "chart",
+  "params": {
+    "datasetSmartName": "auto_data_parquet_prepared",
+    "engineType": "LINO",
+    "refreshableSelection": {
+      "selection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 10000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "def": {
+      "type": "grouped_columns",
+      "variant": "normal",
+      "name": "Count by State and County",
+      "userEditedName": false,
+      "displayWithEChartsByDefault": true,
+      "genericDimension0": [
+        {
+          "column": "State",
+          "type": "ALPHANUM",
+          "numParams": {
+            "emptyBinsMode": "ZEROS"
+          },
+          "maxValues": 20,
+          "generateOthersCategory": true,
+          "oneTickPerBin": false,
+          "filters": [],
+          "isA": "dimension",
+          "possibleSorts": [
+            {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Count of records, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Count of records, ascending",
+              "sortAscending": true
+            }
+          ],
+          "sort": {
+            "type": "AGGREGATION",
+            "measureIdx": 0,
+            "label": "Count of records, descending"
+          }
+        }
+      ],
+      "genericDimension1": [
+        {
+          "column": "County",
+          "type": "ALPHANUM",
+          "numParams": {
+            "emptyBinsMode": "ZEROS"
+          },
+          "maxValues": 20,
+          "generateOthersCategory": true,
+          "oneTickPerBin": false,
+          "filters": [],
+          "isA": "dimension",
+          "possibleSorts": [
+            {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Count of records, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Count of records, ascending",
+              "sortAscending": true
+            }
+          ],
+          "sort": {
+            "type": "AGGREGATION",
+            "measureIdx": 0,
+            "label": "Count of records, descending"
+          }
+        }
+      ],
+      "facetDimension": [],
+      "animationDimension": [],
+      "genericMeasures": [
+        {
+          "function": "COUNT",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0,
+          "showDisplayLabel": true,
+          "labelPosition": "BOTTOM",
+          "colorRules": []
+        }
+      ],
+      "xDimension": [],
+      "yDimension": [],
+      "uaXDimension": [],
+      "uaYDimension": [],
+      "uaSize": [],
+      "uaShape": [],
+      "uaColor": [],
+      "uaTooltip": [],
+      "groupDimension": [],
+      "xMeasure": [],
+      "yMeasure": [],
+      "colorMeasure": [],
+      "sizeMeasure": [],
+      "geometry": [],
+      "geoLayers": [
+        {
+          "geometry": [],
+          "colorOptions": {
+            "singleColor": "#2678B1",
+            "transparency": 0.75,
+            "colorPalette": "default",
+            "ccScaleMode": "NORMAL",
+            "customPalette": {
+              "id": "__dku_custom__",
+              "name": "Custom Palette",
+              "colors": [],
+              "values": [],
+              "fixedValues": false
+            },
+            "paletteType": "CONTINUOUS",
+            "quantizationMode": "NONE",
+            "numQuantizeSteps": 5,
+            "paletteMiddleValue": 0.0,
+            "customColors": {},
+            "heatDensityMapIntensity": 0.5,
+            "heatDensityMapRadius": 0.5
+          },
+          "uaColor": []
+        }
+      ],
+      "tooltipMeasures": [],
+      "boxplotBreakdownDim": [],
+      "boxplotValue": [],
+      "filters": [],
+      "axis1LogScale": false,
+      "axis2LogScale": false,
+      "includeZero": true,
+      "smoothing": true,
+      "showLegend": true,
+      "showXAxis": false,
+      "showInChartValues": false,
+      "showInChartLabels": true,
+      "strokeWidth": 2,
+      "fillOpacity": 0.6,
+      "showXAxisLabel": true,
+      "showYAxisLabel": true,
+      "yAxisNumberFormattingOptions": {
+        "multiplier": "Auto",
+        "prefix": "",
+        "suffix": ""
+      },
+      "xAxisNumberFormattingOptions": {
+        "multiplier": "Auto",
+        "prefix": "",
+        "suffix": ""
+      },
+      "displayXAxis": true,
+      "displayYAxis": true,
+      "hexbinRadius": 20,
+      "hexbinNumber": 20,
+      "hexbinRadiusMode": "NUM_HEXAGONS",
+      "yCustomExtent": {
+        "editMode": "AUTO",
+        "manualExtent": [
+          null,
+          null
+        ]
+      },
+      "xCustomExtent": {
+        "editMode": "AUTO",
+        "manualExtent": [
+          null,
+          null
+        ]
+      },
+      "chartHeight": 200,
+      "singleXAxis": true,
+      "multiTooltips": false,
+      "animationFrameDuration": 3000,
+      "animationRepeat": true,
+      "colorOptions": {
+        "singleColor": "#2678B1",
+        "transparency": 0.75,
+        "colorPalette": "default",
+        "ccScaleMode": "NORMAL",
+        "customPalette": {
+          "id": "__dku_custom__",
+          "name": "Custom Palette",
+          "colors": [],
+          "values": [],
+          "fixedValues": false
+        },
+        "paletteType": "CONTINUOUS",
+        "quantizationMode": "NONE",
+        "numQuantizeSteps": 5,
+        "paletteMiddleValue": 0.0,
+        "customColors": {},
+        "heatDensityMapIntensity": 0.5,
+        "heatDensityMapRadius": 0.5
+      },
+      "bubblesOptions": {
+        "defaultRadius": 5.0,
+        "singleShape": "FILLED_CIRCLE"
+      },
+      "computeMode": "NORMAL",
+      "xAxisMode": "NORMAL",
+      "yAxisMode": "NORMAL",
+      "pieOptions": {
+        "donutHoleSize": 54.0
+      },
+      "scatterOptions": {
+        "equalScales": false,
+        "identityLine": false
+      },
+      "mapOptions": {
+        "tilesLayer": "cartodb-positron",
+        "lockSquareGrid": false
+      },
+      "mapGridOptions": {
+        "gridLonDeg": 0.6,
+        "gridLatDeg": 0.6
+      },
+      "thumbnailData": "data:image/png;base64,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",
+      "disableSafetyLimits": false,
+      "useLiveProcessingIfAvailable": true,
+      "legendPlacement": "OUTER_RIGHT",
+      "pivotMeasureDisplayMode": "ROWS",
+      "pivotDisplayTotals": {
+        "subTotals": {
+          "rows": true,
+          "columns": true
+        },
+        "grandTotal": {
+          "row": true,
+          "column": true
+        }
+      }
+    },
+    "maxDataBytes": 157286400
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "Count by State and County on auto_data_parquet_prepared",
+  "dashboardCreationId": "1XM2o1z",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1684231015137
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1684231015137
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
