@@ -30,8 +30,8 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": -1,
-              "left": -1,
+              "top": 0,
+              "left": 4,
               "width": 2,
               "height": 2
             },
@@ -60,11 +60,11 @@
   "name": "Case_48455",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1684231015157
+    "lastModifiedOn": 1684231015745
   },
   "creationTag": {
     "versionNumber": 0,
