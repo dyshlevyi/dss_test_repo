@@ -37,11 +37,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1683088299558
+    "lastModifiedOn": 1684231073897
   },
   "creationTag": {
     "versionNumber": 0,
@@ -69,7 +69,6 @@
     "columns": [
       {"name":"Date","type":"string"},
       {"name":"Date_parsed","type":"date"},
-      {"name":"State","type":"string"},
       {"name":"County_Code","type":"bigint"},
       {"name":"Income_Bracket","type":"string"},
       {"name":"sale_date","type":"bigint"},
