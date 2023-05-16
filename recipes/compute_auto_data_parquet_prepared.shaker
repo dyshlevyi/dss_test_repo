@@ -53,7 +53,7 @@
       "alwaysShowComment": false
     },
     {
-      "preview": true,
+      "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "DateParser",
@@ -68,6 +68,20 @@
         "timezone_id": "UTC",
         "appliesTo": "SINGLE_COLUMN",
         "lang": "auto"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "State"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
       },
       "alwaysShowComment": false
     }
