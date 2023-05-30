@@ -99,6 +99,89 @@
   },
   "outputColumnNameOverrides": {},
   "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "year",
+            "type": "bigint"
+          },
+          {
+            "name": "state",
+            "type": "string"
+          },
+          {
+            "name": "state_po",
+            "type": "string"
+          },
+          {
+            "name": "state_fips",
+            "type": "bigint"
+          },
+          {
+            "name": "state_cen",
+            "type": "bigint"
+          },
+          {
+            "name": "state_ic",
+            "type": "bigint"
+          },
+          {
+            "name": "office",
+            "type": "string"
+          },
+          {
+            "name": "district",
+            "type": "bigint"
+          },
+          {
+            "name": "stage",
+            "type": "string"
+          },
+          {
+            "name": "runoff",
+            "type": "boolean"
+          },
+          {
+            "name": "special",
+            "type": "boolean"
+          },
+          {
+            "name": "candidate",
+            "type": "string"
+          },
+          {
+            "name": "party",
+            "type": "string"
+          },
+          {
+            "name": "writein",
+            "type": "boolean"
+          },
+          {
+            "name": "mode",
+            "type": "string"
+          },
+          {
+            "name": "candidatevotes",
+            "type": "bigint"
+          },
+          {
+            "name": "totalvotes",
+            "type": "bigint"
+          },
+          {
+            "name": "unofficial",
+            "type": "boolean"
+          },
+          {
+            "name": "version",
+            "type": "bigint"
+          }
+        ],
+        "userModified": false
+      }
+    },
     "distinct": false,
     "enabled": false
   }
