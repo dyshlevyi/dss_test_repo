@@ -3,7 +3,7 @@
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "params": {
-    "engineType": "SPARK",
+    "engineType": "DSS",
     "engineParams": {
       "spark": {
         "readParams": {
@@ -73,11 +73,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
-      "login": "dataiku"
+      "login": "admin"
     },
-    "lastModifiedOn": 1672817181630
+    "lastModifiedOn": 1685447961435
   },
   "creationTag": {
     "versionNumber": 0,
