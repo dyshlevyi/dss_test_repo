@@ -47,8 +47,8 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": -1,
-              "left": -1,
+              "top": 90,
+              "left": 8,
               "width": 3,
               "height": 3
             },
@@ -71,11 +71,11 @@
   "name": "Customers Cases\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1686125430537
+    "lastModifiedOn": 1686125431368
   },
   "creationTag": {
     "versionNumber": 0,
