@@ -19,8 +19,8 @@ df <- iris
 #df <- dkuReadDataset("YOUR_DATASET_NAME", samplingMethod="head", nbRows=100000)
 plot(df)
 
-dkuSourceLibR("/tmp/test.R")
-do_awesome_stuff()
+#dkuSourceLibR("/tmp/test.R")
+#do_awesome_stuff()
 ```
 
 <!-- The R environnement is shared across blocks -->
