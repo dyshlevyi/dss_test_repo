@@ -28,6 +28,15 @@
         "modes": [
           "READ"
         ]
+      },
+      {
+        "objectRef": {
+          "objectId": "c6idi82",
+          "objectType": "REPORT"
+        },
+        "modes": [
+          "READ"
+        ]
       }
     ]
   },
@@ -271,11 +280,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 19,
+    "versionNumber": 20,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1684231014854
+    "lastModifiedOn": 1686125326762
   },
   "creationTag": {
     "versionNumber": 0,
