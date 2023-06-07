@@ -1,0 +1,32 @@
+{
+  "type": "report",
+  "params": {
+    "reportSmartId": "c6idi82",
+    "exportTimestamp": 0,
+    "viewFormat": "HTML_DOCUMENT",
+    "loadLast": true
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "rmarkdown report",
+  "dashboardCreationId": "itXXRQI",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1686125430528
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1686125430528
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
