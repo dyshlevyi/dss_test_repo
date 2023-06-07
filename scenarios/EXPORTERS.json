@@ -3,18 +3,18 @@
   "name": "Exporters",
   "active": false,
   "creationTag": {
-    "versionNumber": 2,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1686125011335
-  },
-  "versionTag": {
     "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1686125018330
+  },
+  "versionTag": {
+    "versionNumber": 4,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1686125871366
   },
   "checklists": {
     "checklists": []
@@ -33,6 +33,24 @@
         "id": "create_rmarkdown_report_export_c6idi82",
         "type": "create_rmarkdown_report_export",
         "name": "Step #1",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "reportId": "c6idi82",
+          "proceedOnFailure": false
+        }
+      },
+      {
+        "id": "create_rmarkdown_report_export_c6idi82_1",
+        "type": "create_rmarkdown_report_export",
+        "name": "Step #2",
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
