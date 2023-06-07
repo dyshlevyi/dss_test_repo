@@ -49,7 +49,7 @@
             "box": {
               "top": 90,
               "left": 8,
-              "width": 3,
+              "width": 4,
               "height": 3
             },
             "clickAction": "DO_NOTHING",
@@ -71,11 +71,11 @@
   "name": "Customers Cases\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1686125431368
+    "lastModifiedOn": 1686125437046
   },
   "creationTag": {
     "versionNumber": 0,
