@@ -3,18 +3,18 @@
   "name": "Exporters",
   "active": false,
   "creationTag": {
-    "versionNumber": 0,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1686123411686
-  },
-  "versionTag": {
     "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1686123424680
+  },
+  "versionTag": {
+    "versionNumber": 2,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1686125011335
   },
   "checklists": {
     "checklists": []
@@ -44,6 +44,32 @@
         "maxRetriesOnFail": 0,
         "params": {
           "reportId": "c6idi82",
+          "proceedOnFailure": false
+        }
+      },
+      {
+        "id": "create_dashboard_export_itXXRQI",
+        "type": "create_dashboard_export",
+        "name": "Step #2",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "dashboardId": "itXXRQI",
+          "exportFormat": {
+            "paperSize": "A4",
+            "orientation": "LANDSCAPE",
+            "fileType": "PDF",
+            "width": 1920,
+            "height": 1358
+          },
+          "folderSmartId": "E09bxp88",
           "proceedOnFailure": false
         }
       }
