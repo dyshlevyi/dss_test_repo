@@ -3,18 +3,18 @@
   "name": "Exporters",
   "active": false,
   "creationTag": {
-    "versionNumber": 5,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1686126309527
-  },
-  "versionTag": {
     "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1686309210791
+  },
+  "versionTag": {
+    "versionNumber": 7,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1686309370831
   },
   "checklists": {
     "checklists": []
@@ -64,7 +64,7 @@
           "builds": [
             {
               "type": "DATASET",
-              "itemId": "auto_data_parquet",
+              "itemId": "auto_data_parquet_prepared",
               "partitionsSpec": ""
             }
           ],
