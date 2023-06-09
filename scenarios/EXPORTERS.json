@@ -3,18 +3,18 @@
   "name": "Exporters",
   "active": false,
   "creationTag": {
-    "versionNumber": 4,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1686125871366
-  },
-  "versionTag": {
     "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1686126309527
+  },
+  "versionTag": {
+    "versionNumber": 6,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1686309210791
   },
   "checklists": {
     "checklists": []
@@ -44,6 +44,33 @@
         "maxRetriesOnFail": 0,
         "params": {
           "reportId": "c6idi82",
+          "proceedOnFailure": false
+        }
+      },
+      {
+        "id": "build_0_false_d_auto_data_parquet",
+        "type": "build_flowitem",
+        "name": "Step #2",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "builds": [
+            {
+              "type": "DATASET",
+              "itemId": "auto_data_parquet",
+              "partitionsSpec": ""
+            }
+          ],
+          "jobType": "RECURSIVE_BUILD",
+          "refreshHiveMetastore": false,
+          "handleWarningsAs": "SUCCESS",
           "proceedOnFailure": false
         }
       }
