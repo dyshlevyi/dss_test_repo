@@ -4,7 +4,8 @@
   "params": {
     "autoStartBackend": false,
     "envSelection": {
-      "envMode": "INHERIT"
+      "envMode": "EXPLICIT_ENV",
+      "envName": "R_env"
     },
     "runAs": "admin",
     "infra": {
@@ -35,11 +36,11 @@
   "config": {},
   "name": "shiny",
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1686575177028
+    "lastModifiedOn": 1686575840272
   },
   "creationTag": {
     "versionNumber": 0,
