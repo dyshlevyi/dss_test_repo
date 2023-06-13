@@ -1,4 +1,5 @@
 {
+  "name": "gender_auto_data",
   "endpoints": [
     {
       "modelRef": "GIit0ZFs",
@@ -31,11 +32,11 @@
     "scopeClaimKey": "scope"
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1686682326269
+    "lastModifiedOn": 1686682334840
   },
   "creationTag": {
     "versionNumber": 0,
