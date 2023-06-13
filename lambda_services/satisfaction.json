@@ -1,4 +1,5 @@
 {
+  "name": "satisfaction",
   "endpoints": [
     {
       "modelRef": "VSg44sPY",
@@ -31,11 +32,11 @@
     "scopeClaimKey": "scope"
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1686685599302
+    "lastModifiedOn": 1686685601320
   },
   "creationTag": {
     "versionNumber": 0,
