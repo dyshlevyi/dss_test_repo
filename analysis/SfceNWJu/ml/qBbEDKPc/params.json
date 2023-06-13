@@ -3728,7 +3728,7 @@
     ]
   },
   "taskType": "PREDICTION",
-  "name": "Forecast Date",
+  "name": "Forecast DateSeconds",
   "backendType": "PY_MEMORY",
   "maxConcurrentModelTraining": 2,
   "envSelection": {
