@@ -8,7 +8,8 @@
       "envName": "conda_py39"
     },
     "containerSelection": {
-      "containerMode": "INHERIT"
+      "containerMode": "EXPLICIT_CONTAINER",
+      "containerConf": "docker-base"
     },
     "skipPrerunValidate": false
   },
@@ -32,11 +33,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1687902120456
+    "lastModifiedOn": 1687902207676
   },
   "creationTag": {
     "versionNumber": 0,
