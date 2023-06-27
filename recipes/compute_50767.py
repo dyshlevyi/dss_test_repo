@@ -6,7 +6,7 @@ from dataiku import pandasutils as pdu
 import os
 import stat
 #import torch
-import esm
+#import esm
 
 # Read recipe inputs
 #all_public_seqs = dataiku.Dataset("all_public_seqs")
