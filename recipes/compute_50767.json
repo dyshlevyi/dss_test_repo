@@ -4,7 +4,8 @@
   "optionalDependencies": false,
   "params": {
     "envSelection": {
-      "envMode": "INHERIT"
+      "envMode": "EXPLICIT_ENV",
+      "envName": "conda_py39"
     },
     "containerSelection": {
       "containerMode": "INHERIT"
@@ -31,11 +32,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1687901942127
+    "lastModifiedOn": 1687901957105
   },
   "creationTag": {
     "versionNumber": 0,
