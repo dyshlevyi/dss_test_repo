@@ -5,7 +5,7 @@ from dataiku import pandasutils as pdu
 
 import os
 import stat
-import torch
+#import torch
 import esm
 
 # Read recipe inputs
