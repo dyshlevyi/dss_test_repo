@@ -1,13 +1,24 @@
 {
   "name": "First",
   "layout": "WIKI_ARTICLE",
-  "attachments": [],
+  "attachments": [
+    {
+      "attachmentType": "FILE",
+      "smartId": "mNQhSRIUAI2U",
+      "details": {
+        "objectDisplayName": "samplepptx.pptx",
+        "size": 413895
+      },
+      "attachedBy": "admin",
+      "attachedOn": 1688151213000
+    }
+  ],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1679482296745
+    "lastModifiedOn": 1688151213000
   },
   "creationTag": {
     "versionNumber": 0,
